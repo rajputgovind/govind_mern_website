@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+
+}
+
+/* .signup{
+  border: 3px solid black;
+  width: 80%;
+  height: 80%;
+  color: red;
+  /* padding: 50%; */
+ 
+/* img{
+  width: 100%;
+  height: 150%;
+} */
+
+.contact_info_item1{
+  border: 2px solid gray;
+  width: 30%;
+
+}
+.contact_info_item2{
+  border: 2px solid gray;
+  width: 30%;
+
+}
+.contact_info_item3{
+  border: 2px solid gray;
+  width: 30%;
+
+}
+
+.govind{
+  letter-spacing: 3px;
+  color: #8cba2a;
+  /* border: 2px solid gray; */
+  border-radius: 10px;
+}
+
+.home{
+  /* border: 3px solid black; */
+  height: 350px;
+}
+
+.home_welcome{
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  color: darkblue;
+}
+
+.mern{
+  letter-spacing: 10px;
+  color: cadetblue;
+}
+
+.about_style ul li{
+  list-style: none;
+  padding: 20px;
+}
+
+.about_style{
+  display: flex;
+}
+
+.name{
+  letter-spacing: 5px;
+  color: #1b82e9;
+}
+
+/* .about_style ul{
+  
+} */
